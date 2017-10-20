@@ -1,0 +1,66 @@
+<!--banner-->
+<div class="swiper-container banner">
+    <div class="swiper-wrapper">
+        <div ng-repeat="ban in banner" class="swiper-slide"><img ng-src={{ban.src}} alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<!--main_nav-->
+<div class="main_nav">
+    <a ng-repeat="navs in main_nav" class="tab-item">
+        <i class={{navs.icon}} style="background:{{navs.color}}"></i>
+        {{navs.content}}
+    </a>
+</div>
+<!--ad-->
+<div class="ad"><img ng-src={{ad.src}} alt=""></div>
+<!--车主服务-->
+<div class="car-server main">
+    <h3>车主服务</h3>
+
+    <div class="car">
+        <span ng-repeat="cars in carServer" class="p10 bdt1 bdr1">
+            <i class={{cars.icon}} style="color:{{cars.color}}"></i>
+            <b>{{cars.content}}</b>
+        </span>
+    </div>
+</div>
+<!--限时抢购-->
+<div class="buying main">
+    <h3>限时抢购</h3>
+
+    <div class="buy pb20">
+        <p><img src="./Content/img/buy1.jpg" alt=""></p>
+
+        <p><img src="./Content/img/buy2.jpg" alt=""></p>
+
+        <p><img src="./Content/img/buy1.jpg" alt=""></p>
+    </div>
+</div>
+<!--活动专区-->
+<div class="activity main">
+    <h3>活动专区
+        <small>更多活动 ></small>
+    </h3>
+    <div class="act">
+        <div ng-repeat="acts in actives" class="active bdt1 bdr1">
+            <h4>{{acts.tit}}</h4>
+            <small>{{acts.cont}}</small>
+            <p class="pt5"><img ng-src={{acts.src}} alt=""></p>
+        </div>
+    </div>
+</div>
+<!--猜你喜欢-->
+<div class="like main">
+    <h3>猜你喜欢
+        <small>更多 ></small>
+    </h3>
+    <div class="car">
+        <div ng-repeat="like in likes" class="car_sm p10 bdt1 bdr1">
+            <p class="p10"><img ng-src={{like.src}} alt=""></p>
+            <h4>{{like.tit}}</h4>
+            <small>{{like.cont}}</small>
+            <h5>{{like.price}}<s>{{like.init}}</s></h5>
+        </div>
+    </div>
+</div>

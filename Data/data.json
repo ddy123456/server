@@ -1,0 +1,146 @@
+{
+  "banner":[
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"},
+    {"src":"./Content/img/banner.gif"}
+  ],
+  "main_nav":[
+    {
+      "icon":"icon ion-ios-box",
+      "color":"#f66",
+      "content":"车商城"
+    },
+    {
+      "icon":"icon ion-card",
+      "color":"#ff9d3e",
+      "content":"车商城"
+    },
+    {
+      "icon":"icon ion-ios-box",
+      "color":"#f66",
+      "content":"团购活动"
+    },
+    {
+      "icon":"icon ion-android-car",
+      "color":"#4183ff",
+      "content":"找二手车"
+    }
+  ],
+  "ad":{
+    "src":"./Content/img/ad.jpg"
+  },
+  "carServer":[
+    {
+      "icon":"icon ion-card p10",
+      "color":"#f85858",
+      "content":"油卡充值"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#0aa570",
+      "content":"低价保险"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#7760ef",
+      "content":"4S店保养"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#0aa570",
+      "content":"品质轮胎"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#ff4e00",
+      "content":"车品商城"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#4183ff",
+      "content":"洗车"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#ff4e00",
+      "content":"违章代缴"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#e94645",
+      "content":"免费测评"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#4887ff",
+      "content":"查周边"
+    },
+    {
+      "icon":"icon ion-card p10",
+      "color":"#0aa570",
+      "content":"车主卡"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#4183ff",
+      "content":"领券保养"
+    },
+    {
+      "icon":"icon ion-android-car p10",
+      "color":"#5f5f5f",
+      "content":"全部"
+    }
+  ],
+  "actives":[
+    {
+      "tit":"测身价炫富",
+      "cont":"身价大PK",
+      "src":"./Content/img/pic1.gif"
+    },
+    {
+      "tit":"全场0利润",
+      "cont":"购车无压力",
+      "src":"./Content/img/pic2.gif"
+    },
+    {
+      "tit":"好车分期",
+      "cont":"定制专属方案",
+      "src":"./Content/img/pic3.gif"
+    }
+  ],
+  "likes":[
+    {
+      "src":"./Content/img/pics1.gif",
+      "tit":"上汽大众-全新旅途L",
+      "cont":"上汽大众-全新旅途L享两年0利率",
+      "price":"1元",
+      "init":"1.44万"
+    },
+    {
+      "src":"./Content/img/pics2.gif",
+      "tit":"上汽大众-全新旅途L",
+      "cont":"上汽大众-全新旅途L享两年0利率",
+      "price":"1元",
+      "init":"1.44万"
+    },
+    {
+      "src":"./Content/img/pics3.gif",
+      "tit":"上汽大众-全新旅途L",
+      "cont":"上汽大众-全新旅途L享两年0利率",
+      "price":"1元",
+      "init":"1.44万"
+    },
+    {
+      "src":"./Content/img/pics4.gif",
+      "tit":"上汽大众-全新旅途L",
+      "cont":"上汽大众-全新旅途L享两年0利率",
+      "price":"1元",
+      "init":"1.44万"
+    }
+  ]
+}
